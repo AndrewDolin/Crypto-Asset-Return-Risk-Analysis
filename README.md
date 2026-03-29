@@ -32,21 +32,21 @@ Irregular sampling intervals are normalized using resampling and interpolation.
 
 ### Returns Calculation
 
-Daily returns are computed as:
+Daily return is computed as:
 
-[
-r_t = \frac{P_t}{P_{t-1}} - 1
-]
+r_t = (P_t / P_{t-1}) - 1
+
+where:
+- P_t is the current price
+- P_{t-1} is the previous price
 
 ---
 
 ### Cumulative Return
 
-Cumulative return is calculated using:
+Cumulative return is computed as:
 
-[
-R_t = \prod_{i=1}^{t}(1 + r_i)
-]
+R_t = (1 + r_1) * (1 + r_2) * ... * (1 + r_t)
 
 ---
 
