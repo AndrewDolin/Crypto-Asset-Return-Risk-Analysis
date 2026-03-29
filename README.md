@@ -139,4 +139,4 @@ crypto-analyzer/
 
 ## 🔹 Author
 
-Andrey
+Andrew Dolinin
